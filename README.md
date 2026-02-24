@@ -78,3 +78,9 @@ Copy the following files to your Pico:
 
 Once the files are uploaded, the Raspberry Pi Pico will play your song through the connected buzzer once you plug it in.
 
+---
+
+© 2026 Andrea BAÑALES AGUIAR
+
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0).  
+See the LICENSE file for details.
