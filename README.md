@@ -1,4 +1,4 @@
-# Pi-Pico-Music-Buzzer
+# Pi-Pico-MIDI-Buzzer-Player
 
 Here is how to play a song with a Raspberry Pi Pico and a buzzer, from a MIDI file (or a music sheet, with extra steps).
 
