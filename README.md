@@ -4,6 +4,11 @@ A Raspberry Pi Pico project to convert MIDI files into Python instructions for a
 
 The goal of this project was to explore the process of transforming musical data into instructions for a resource-constrained embedded system (and, honestly, to play a song I like).
 
+<p align="center">
+  <img width="400"  alt="pi pico music buzzer pic" src="https://github.com/user-attachments/assets/e6136217-2b54-4ed9-96ee-33a9ca925147" />
+</p>
+
+
 ---
 
 ## Overview
