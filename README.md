@@ -15,27 +15,31 @@ The goal of this project was to explore the process of transforming musical data
 
 The workflow is :
 
-(Sheet music)
+**(Sheet music)**
 
-↓
+  ↓<br>
+  ↓ _using MuseScore, for instance_<br>
+  ↓<br>
 
-MIDI file
+**MIDI file**
 
-↓
+  ↓<br>
+  ↓ _using existing MIDI-to CSV conversion tools_<br>
+  ↓<br>
 
-CSV file
+**CSV file**
 
-↓
+  ↓<br>
+  ↓ _Running_ ```csv_from_midi_to_pi_pico_buzzer_code.py``` _on a computer_<br>
+  ↓<br>
 
-Python code generated for the Pico and stored in a .txt file
+**Python code generated for the Pico and stored in ```song.txt```**
 
-↓
+  ↓<br>
+  ↓ _the Pico runs `main.py`, which progressively reads and executes the code from `song.txt`_<br>
+  ↓<br>
 
-Pico executes the generated code progressively
-
-↓
-
-Buzzer plays the song
+**The Buzzer plays the song**
 
 ### Engineering constraint 
 
