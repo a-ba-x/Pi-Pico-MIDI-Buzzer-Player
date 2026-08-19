@@ -41,7 +41,8 @@ The workflow is :
 
 **The Buzzer plays the song**
 
-### Engineering constraint 
+
+## Engineering constraint 
 
 The Raspberry Pi Pico has limited memory, so directly generating a large .py file containing the entire song can become impractical, especially for longer pieces.
 
@@ -49,7 +50,7 @@ To address this constraint, the project separates offline preprocessing from on-
 
 The Pico then uses ```main.py``` to read and execute the generated instructions progressively, avoiding the need to load the entire generated program into memory at once.
 
-### How it works
+## How it works
 
 The conversion script reads the MIDI-derived CSV file and extracts, for each note :
 - its name, which determines the pitch
